@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SimpleTimeTracker
+
+  Created by Tim Vialichka on 26.02.2023.
+  
+*/
+
+"homeScreen.start" = "Start";
+"homeScreen.stop" = "Stop";
+"homeScreen.taskTitlePlaceholder" = "I'm working on...";

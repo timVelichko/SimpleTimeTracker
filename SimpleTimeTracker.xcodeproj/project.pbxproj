@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		92A9FE9129AB9C25002CF9C0 /* SimpleTimeTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FE9029AB9C25002CF9C0 /* SimpleTimeTrackerApp.swift */; };
-		92A9FE9329AB9C25002CF9C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FE9229AB9C25002CF9C0 /* ContentView.swift */; };
+		92A9FE9329AB9C25002CF9C0 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FE9229AB9C25002CF9C0 /* HomeScreenView.swift */; };
 		92A9FE9529AB9C27002CF9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A9FE9429AB9C27002CF9C0 /* Assets.xcassets */; };
 		92A9FE9829AB9C27002CF9C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A9FE9729AB9C27002CF9C0 /* Preview Assets.xcassets */; };
 		92A9FEA229AB9C27002CF9C0 /* SimpleTimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEA129AB9C27002CF9C0 /* SimpleTimeTrackerTests.swift */; };
 		92A9FEAC29AB9C27002CF9C0 /* SimpleTimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEAB29AB9C27002CF9C0 /* SimpleTimeTrackerUITests.swift */; };
 		92A9FEAE29AB9C27002CF9C0 /* SimpleTimeTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEAD29AB9C27002CF9C0 /* SimpleTimeTrackerUITestsLaunchTests.swift */; };
+		92A9FEBD29ABA3A4002CF9C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92A9FEBF29ABA3A4002CF9C0 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		92A9FE8D29AB9C25002CF9C0 /* SimpleTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A9FE9029AB9C25002CF9C0 /* SimpleTimeTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeTrackerApp.swift; sourceTree = "<group>"; };
-		92A9FE9229AB9C25002CF9C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92A9FE9229AB9C25002CF9C0 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		92A9FE9429AB9C27002CF9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A9FE9729AB9C27002CF9C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92A9FE9D29AB9C27002CF9C0 /* SimpleTimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		92A9FEA729AB9C27002CF9C0 /* SimpleTimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A9FEAB29AB9C27002CF9C0 /* SimpleTimeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeTrackerUITests.swift; sourceTree = "<group>"; };
 		92A9FEAD29AB9C27002CF9C0 /* SimpleTimeTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92A9FEBE29ABA3A4002CF9C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				92A9FE9029AB9C25002CF9C0 /* SimpleTimeTrackerApp.swift */,
-				92A9FE9229AB9C25002CF9C0 /* ContentView.swift */,
+				92A9FE9229AB9C25002CF9C0 /* HomeScreenView.swift */,
 				92A9FE9429AB9C27002CF9C0 /* Assets.xcassets */,
+				92A9FEBA29ABA347002CF9C0 /* Resources */,
 				92A9FE9629AB9C27002CF9C0 /* Preview Content */,
 			);
 			path = SimpleTimeTracker;
@@ -125,6 +128,14 @@
 				92A9FEAD29AB9C27002CF9C0 /* SimpleTimeTrackerUITestsLaunchTests.swift */,
 			);
 			path = SimpleTimeTrackerUITests;
+			sourceTree = "<group>";
+		};
+		92A9FEBA29ABA347002CF9C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92A9FEBF29ABA3A4002CF9C0 /* Localizable.strings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92A9FE9829AB9C27002CF9C0 /* Preview Assets.xcassets in Resources */,
+				92A9FEBD29ABA3A4002CF9C0 /* Localizable.strings in Resources */,
 				92A9FE9529AB9C27002CF9C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A9FE9329AB9C25002CF9C0 /* ContentView.swift in Sources */,
+				92A9FE9329AB9C25002CF9C0 /* HomeScreenView.swift in Sources */,
 				92A9FE9129AB9C25002CF9C0 /* SimpleTimeTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +305,17 @@
 			targetProxy = 92A9FEA829AB9C27002CF9C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92A9FEBF29ABA3A4002CF9C0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A9FEBE29ABA3A4002CF9C0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		92A9FEAF29AB9C27002CF9C0 /* Debug */ = {
