@@ -9,3 +9,4 @@
 "homeScreen.start" = "Start";
 "homeScreen.stop" = "Stop";
 "homeScreen.taskTitlePlaceholder" = "I'm working on...";
+"tasksScreen.listPlaceholder" = "Add your first task";

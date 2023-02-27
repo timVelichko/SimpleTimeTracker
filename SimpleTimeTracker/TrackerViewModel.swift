@@ -22,6 +22,11 @@ class TrackerViewModel: ObservableObject {
         didSet { timerTitle = String(secondsCount) }
     }
     private var currentTask: Task?
+    private let tasksProvider: TasksProvider
+    
+    init(tasksProvider: TasksProvider = UserDefaultsTaskProvider()) {
+        self.tasksProvider = tasksProvider
+    }
     
     func trackerButtonTapped() {
         isTracking.toggle()
@@ -38,6 +43,11 @@ class TrackerViewModel: ObservableObject {
         } else {
             timer?.invalidate()
             timer = nil
+            
+            if var currentTask {
+                currentTask.dateFinished = Date()
+                tasksProvider.store(task: currentTask)
+            }
             taskTitle = ""
             secondsCount = 0
             currentTask = nil

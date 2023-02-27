@@ -18,6 +18,9 @@
 		92A9FEC229ABB50D002CF9C0 /* String+DurationFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEC129ABB50D002CF9C0 /* String+DurationFormat.swift */; };
 		92A9FEC429AC26C7002CF9C0 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEC329AC26C7002CF9C0 /* TrackerView.swift */; };
 		92A9FEC629AC26FD002CF9C0 /* TrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEC529AC26FD002CF9C0 /* TrackerViewModel.swift */; };
+		92A9FEC829AC3458002CF9C0 /* TasksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEC729AC3458002CF9C0 /* TasksListView.swift */; };
+		92A9FECA29AC34A3002CF9C0 /* TasksListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEC929AC34A3002CF9C0 /* TasksListViewModel.swift */; };
+		92A9FECC29AC3568002CF9C0 /* TasksProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FECB29AC3568002CF9C0 /* TasksProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		92A9FEC129ABB50D002CF9C0 /* String+DurationFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DurationFormat.swift"; sourceTree = "<group>"; };
 		92A9FEC329AC26C7002CF9C0 /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
 		92A9FEC529AC26FD002CF9C0 /* TrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewModel.swift; sourceTree = "<group>"; };
+		92A9FEC729AC3458002CF9C0 /* TasksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListView.swift; sourceTree = "<group>"; };
+		92A9FEC929AC34A3002CF9C0 /* TasksListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListViewModel.swift; sourceTree = "<group>"; };
+		92A9FECB29AC3568002CF9C0 /* TasksProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				92A9FE9229AB9C25002CF9C0 /* HomeScreenView.swift */,
 				92A9FEC329AC26C7002CF9C0 /* TrackerView.swift */,
 				92A9FEC529AC26FD002CF9C0 /* TrackerViewModel.swift */,
+				92A9FEC729AC3458002CF9C0 /* TasksListView.swift */,
+				92A9FEC929AC34A3002CF9C0 /* TasksListViewModel.swift */,
+				92A9FECB29AC3568002CF9C0 /* TasksProvider.swift */,
 				92A9FE9429AB9C27002CF9C0 /* Assets.xcassets */,
 				92A9FEC029ABB4BF002CF9C0 /* Utils */,
 				92A9FEBA29ABA347002CF9C0 /* Resources */,
@@ -289,7 +298,10 @@
 				92A9FE9329AB9C25002CF9C0 /* HomeScreenView.swift in Sources */,
 				92A9FEC629AC26FD002CF9C0 /* TrackerViewModel.swift in Sources */,
 				92A9FE9129AB9C25002CF9C0 /* SimpleTimeTrackerApp.swift in Sources */,
+				92A9FEC829AC3458002CF9C0 /* TasksListView.swift in Sources */,
 				92A9FEC229ABB50D002CF9C0 /* String+DurationFormat.swift in Sources */,
+				92A9FECC29AC3568002CF9C0 /* TasksProvider.swift in Sources */,
+				92A9FECA29AC34A3002CF9C0 /* TasksListViewModel.swift in Sources */,
 				92A9FEC429AC26C7002CF9C0 /* TrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
