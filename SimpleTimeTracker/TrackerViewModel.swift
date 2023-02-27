@@ -28,6 +28,10 @@ class TrackerViewModel: ObservableObject {
         self.tasksProvider = tasksProvider
     }
     
+    deinit {
+        timer?.invalidate()
+    }
+    
     func trackerButtonTapped() {
         isTracking.toggle()
         buttonTitle = isTracking ? "homeScreen.stop" : "homeScreen.start"

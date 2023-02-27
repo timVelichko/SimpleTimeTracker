@@ -11,9 +11,6 @@
 		92A9FE9329AB9C25002CF9C0 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FE9229AB9C25002CF9C0 /* HomeScreenView.swift */; };
 		92A9FE9529AB9C27002CF9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A9FE9429AB9C27002CF9C0 /* Assets.xcassets */; };
 		92A9FE9829AB9C27002CF9C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A9FE9729AB9C27002CF9C0 /* Preview Assets.xcassets */; };
-		92A9FEA229AB9C27002CF9C0 /* SimpleTimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEA129AB9C27002CF9C0 /* SimpleTimeTrackerTests.swift */; };
-		92A9FEAC29AB9C27002CF9C0 /* SimpleTimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEAB29AB9C27002CF9C0 /* SimpleTimeTrackerUITests.swift */; };
-		92A9FEAE29AB9C27002CF9C0 /* SimpleTimeTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEAD29AB9C27002CF9C0 /* SimpleTimeTrackerUITestsLaunchTests.swift */; };
 		92A9FEBD29ABA3A4002CF9C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92A9FEBF29ABA3A4002CF9C0 /* Localizable.strings */; };
 		92A9FEC229ABB50D002CF9C0 /* String+DurationFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEC129ABB50D002CF9C0 /* String+DurationFormat.swift */; };
 		92A9FEC429AC26C7002CF9C0 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEC329AC26C7002CF9C0 /* TrackerView.swift */; };
@@ -21,17 +18,12 @@
 		92A9FEC829AC3458002CF9C0 /* TasksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEC729AC3458002CF9C0 /* TasksListView.swift */; };
 		92A9FECA29AC34A3002CF9C0 /* TasksListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FEC929AC34A3002CF9C0 /* TasksListViewModel.swift */; };
 		92A9FECC29AC3568002CF9C0 /* TasksProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FECB29AC3568002CF9C0 /* TasksProvider.swift */; };
+		92A9FECE29AC4777002CF9C0 /* TrackerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FECD29AC4777002CF9C0 /* TrackerViewModelTests.swift */; };
+		92A9FED029AC4EA9002CF9C0 /* TasksListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9FECF29AC4EA9002CF9C0 /* TasksListViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		92A9FE9E29AB9C27002CF9C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92A9FE8529AB9C25002CF9C0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92A9FE8C29AB9C25002CF9C0;
-			remoteInfo = SimpleTimeTracker;
-		};
-		92A9FEA829AB9C27002CF9C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 92A9FE8529AB9C25002CF9C0 /* Project object */;
 			proxyType = 1;
@@ -47,10 +39,6 @@
 		92A9FE9429AB9C27002CF9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A9FE9729AB9C27002CF9C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92A9FE9D29AB9C27002CF9C0 /* SimpleTimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92A9FEA129AB9C27002CF9C0 /* SimpleTimeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeTrackerTests.swift; sourceTree = "<group>"; };
-		92A9FEA729AB9C27002CF9C0 /* SimpleTimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92A9FEAB29AB9C27002CF9C0 /* SimpleTimeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeTrackerUITests.swift; sourceTree = "<group>"; };
-		92A9FEAD29AB9C27002CF9C0 /* SimpleTimeTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		92A9FEBE29ABA3A4002CF9C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		92A9FEC129ABB50D002CF9C0 /* String+DurationFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DurationFormat.swift"; sourceTree = "<group>"; };
 		92A9FEC329AC26C7002CF9C0 /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
@@ -58,6 +46,8 @@
 		92A9FEC729AC3458002CF9C0 /* TasksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListView.swift; sourceTree = "<group>"; };
 		92A9FEC929AC34A3002CF9C0 /* TasksListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListViewModel.swift; sourceTree = "<group>"; };
 		92A9FECB29AC3568002CF9C0 /* TasksProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksProvider.swift; sourceTree = "<group>"; };
+		92A9FECD29AC4777002CF9C0 /* TrackerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewModelTests.swift; sourceTree = "<group>"; };
+		92A9FECF29AC4EA9002CF9C0 /* TasksListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +65,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92A9FEA429AB9C27002CF9C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +73,6 @@
 			children = (
 				92A9FE8F29AB9C25002CF9C0 /* SimpleTimeTracker */,
 				92A9FEA029AB9C27002CF9C0 /* SimpleTimeTrackerTests */,
-				92A9FEAA29AB9C27002CF9C0 /* SimpleTimeTrackerUITests */,
 				92A9FE8E29AB9C25002CF9C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,7 +82,6 @@
 			children = (
 				92A9FE8D29AB9C25002CF9C0 /* SimpleTimeTracker.app */,
 				92A9FE9D29AB9C27002CF9C0 /* SimpleTimeTrackerTests.xctest */,
-				92A9FEA729AB9C27002CF9C0 /* SimpleTimeTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,18 +115,10 @@
 		92A9FEA029AB9C27002CF9C0 /* SimpleTimeTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				92A9FEA129AB9C27002CF9C0 /* SimpleTimeTrackerTests.swift */,
+				92A9FECD29AC4777002CF9C0 /* TrackerViewModelTests.swift */,
+				92A9FECF29AC4EA9002CF9C0 /* TasksListViewModelTests.swift */,
 			);
 			path = SimpleTimeTrackerTests;
-			sourceTree = "<group>";
-		};
-		92A9FEAA29AB9C27002CF9C0 /* SimpleTimeTrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				92A9FEAB29AB9C27002CF9C0 /* SimpleTimeTrackerUITests.swift */,
-				92A9FEAD29AB9C27002CF9C0 /* SimpleTimeTrackerUITestsLaunchTests.swift */,
-			);
-			path = SimpleTimeTrackerUITests;
 			sourceTree = "<group>";
 		};
 		92A9FEBA29ABA347002CF9C0 /* Resources */ = {
@@ -202,24 +175,6 @@
 			productReference = 92A9FE9D29AB9C27002CF9C0 /* SimpleTimeTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		92A9FEA629AB9C27002CF9C0 /* SimpleTimeTrackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92A9FEB729AB9C27002CF9C0 /* Build configuration list for PBXNativeTarget "SimpleTimeTrackerUITests" */;
-			buildPhases = (
-				92A9FEA329AB9C27002CF9C0 /* Sources */,
-				92A9FEA429AB9C27002CF9C0 /* Frameworks */,
-				92A9FEA529AB9C27002CF9C0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92A9FEA929AB9C27002CF9C0 /* PBXTargetDependency */,
-			);
-			name = SimpleTimeTrackerUITests;
-			productName = SimpleTimeTrackerUITests;
-			productReference = 92A9FEA729AB9C27002CF9C0 /* SimpleTimeTrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,10 +189,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					92A9FE9C29AB9C27002CF9C0 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 92A9FE8C29AB9C25002CF9C0;
-					};
-					92A9FEA629AB9C27002CF9C0 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 92A9FE8C29AB9C25002CF9C0;
 					};
@@ -258,7 +209,6 @@
 			targets = (
 				92A9FE8C29AB9C25002CF9C0 /* SimpleTimeTracker */,
 				92A9FE9C29AB9C27002CF9C0 /* SimpleTimeTrackerTests */,
-				92A9FEA629AB9C27002CF9C0 /* SimpleTimeTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,13 +225,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		92A9FE9B29AB9C27002CF9C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92A9FEA529AB9C27002CF9C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,16 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A9FEA229AB9C27002CF9C0 /* SimpleTimeTrackerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92A9FEA329AB9C27002CF9C0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92A9FEAE29AB9C27002CF9C0 /* SimpleTimeTrackerUITestsLaunchTests.swift in Sources */,
-				92A9FEAC29AB9C27002CF9C0 /* SimpleTimeTrackerUITests.swift in Sources */,
+				92A9FECE29AC4777002CF9C0 /* TrackerViewModelTests.swift in Sources */,
+				92A9FED029AC4EA9002CF9C0 /* TasksListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,11 +265,6 @@
 			isa = PBXTargetDependency;
 			target = 92A9FE8C29AB9C25002CF9C0 /* SimpleTimeTracker */;
 			targetProxy = 92A9FE9E29AB9C27002CF9C0 /* PBXContainerItemProxy */;
-		};
-		92A9FEA929AB9C27002CF9C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92A9FE8C29AB9C25002CF9C0 /* SimpleTimeTracker */;
-			targetProxy = 92A9FEA829AB9C27002CF9C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -562,42 +492,6 @@
 			};
 			name = Release;
 		};
-		92A9FEB829AB9C27002CF9C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2G4AD7SVVS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.timvelichko.SimpleTimeTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimpleTimeTracker;
-			};
-			name = Debug;
-		};
-		92A9FEB929AB9C27002CF9C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2G4AD7SVVS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.timvelichko.SimpleTimeTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimpleTimeTracker;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -624,15 +518,6 @@
 			buildConfigurations = (
 				92A9FEB529AB9C27002CF9C0 /* Debug */,
 				92A9FEB629AB9C27002CF9C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		92A9FEB729AB9C27002CF9C0 /* Build configuration list for PBXNativeTarget "SimpleTimeTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92A9FEB829AB9C27002CF9C0 /* Debug */,
-				92A9FEB929AB9C27002CF9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
