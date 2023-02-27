@@ -32,4 +32,10 @@ class TasksListViewModel: ObservableObject {
         })
     }
     
+    func deleteTasks(with indexSet: IndexSet) {
+        indexSet.forEach {
+            provider.delete(task: tasks[$0])
+        }
+    }
+    
 }

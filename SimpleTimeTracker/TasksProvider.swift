@@ -12,6 +12,7 @@ protocol TasksProvider {
     var tasksPublisher: AnyPublisher<[Task], Error> { get }
     var publisherForUpdates: AnyPublisher<[Task], Error> { get }
     func store(task: Task)
+    func delete(task: Task)
 }
 
 class UserDefaultsTaskProvider: TasksProvider {
@@ -43,14 +44,18 @@ class UserDefaultsTaskProvider: TasksProvider {
     }
     
     func store(task: Task) {
-        var storedTasks = [Task]()
-        if let data = defaults.data(forKey: tasksKey),
-           let tasks = try? JSONDecoder().decode([Task].self, from: data) {
-            storedTasks = tasks
-        }
-        
+        var storedTasks = storedTasksOrEmpty
         storedTasks.append(task)
         if let data = try? JSONEncoder().encode(storedTasks) {
+            defaults.set(data, forKey: tasksKey)
+        }
+    }
+    
+    func delete(task: Task) {
+        let storedTasks = storedTasksOrEmpty
+        let filteredTasks = storedTasks.filter { $0.id != task.id }
+        if storedTasks.count != filteredTasks.count,
+           let data = try? JSONEncoder().encode(filteredTasks) {
             defaults.set(data, forKey: tasksKey)
         }
     }
@@ -61,6 +66,19 @@ extension UserDefaults {
     
     @objc dynamic var tasks: Data? {
         return data(forKey: "tasks")
+    }
+    
+}
+
+private extension UserDefaultsTaskProvider {
+    
+    var storedTasksOrEmpty: [Task] {
+        if let data = defaults.data(forKey: tasksKey),
+           let tasks = try? JSONDecoder().decode([Task].self, from: data) {
+            return tasks
+        }
+        
+        return []
     }
     
 }

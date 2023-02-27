@@ -36,7 +36,7 @@ struct TasksListView: View {
                     }
                 }
                 .onDelete { indexSet in
-                    print(indexSet)
+                    viewModel.deleteTasks(with: indexSet)
                 }
             }
             .scrollContentBackground(.hidden)

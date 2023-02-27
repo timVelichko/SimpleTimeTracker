@@ -33,7 +33,7 @@ class TrackerViewModel: ObservableObject {
         buttonTitle = isTracking ? "homeScreen.stop" : "homeScreen.start"
         
         if isTracking {
-            currentTask = Task()
+            currentTask = Task(name: taskTitle)
             let aTimer = Timer(timeInterval: 1, repeats: true, block: { [weak self] _ in
                 guard let self else { return }
                 self.secondsCount += 1
